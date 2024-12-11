@@ -1,0 +1,126 @@
+body{
+    background-image:url(./space-1164579_640.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ccc{
+    height: 50px;
+    width:900px;
+    border:1px red;
+    background-color: green;
+    animation-name: name;
+    animation-duration: 4sec;
+    animation-iteration-count: infinite;
+    font-size: 30px;
+}
+@keyframes name{
+    from{background-color: green;}
+    to{background-color: red;}
+}
+#neptune{
+    height: 900px;
+    width: 900px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+    position: relative;
+    left: 500px;
+}
+#nep_pic{
+    position: absolute;
+    top: 138px;
+    left: 100px;
+}
+#uranus{
+    height: 800px;
+    width: 800px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#ura_pic{
+    position: absolute;
+    top: 165px;
+    left: 130px;
+}
+#saturn{
+    height: 700px;
+    width: 700px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#sat_pic{
+    position: absolute;
+    top: 210px;
+    left: 170px;
+}
+#jupiter{
+    height: 700px;
+    width: 700px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#jup_pic{
+    position: absolute;
+    top: 250px;
+    left: 210px;
+}
+#mars{
+    height: 600px;
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#mars_pic{
+    position: absolute;
+    top: 285px;
+    left: 255px;
+}
+#earth{
+    height: 530px;
+    width: 510px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#earth_pic{
+    position: absolute;
+    top: 320px;
+    left: 290px;
+}
+#venus{
+    height: 440px;
+    width: 420px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 47px;
+    margin-left: 58px;
+}
+#venus_pic{
+    position: absolute;
+    top: 360px;
+    left: 340px;
+}
+#mercury{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 95px;
+    margin-left: 53px;
+}
+#mer_div{
+    position: absolute;
+    top: 500px;
+    left: 900px;
+}
+#sun{
+    margin-left: 50px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-right: 300px;
+}
